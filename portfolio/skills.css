@@ -1,0 +1,25 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* background-color: #000; */
+    color: black;
+}
+.SkillHead{
+    font-size: 2rem;
+    text-align: center;
+}
+.mainbody{
+    display: flex;
+    height: 90vh;
+}  
+table, tr,td{
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    width:70%;
+    height:50px;
+    text-align: center;
+}
+table,tr{
+    text-align: left;
+}

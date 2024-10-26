@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* background-color: #000; */
+    color: white;
+}
+.Header{
+    background-color: #373A40;
+    color: white;
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 20px;
+}
+.Headname h4{
+    margin-left: 10px;
+}
+.linkHead{
+    display: inline-block;
+    margin-left: 30%; 
+}
+.linkHead a{
+    color: white;
+    margin: 0px 20px;
+    text-decoration: none;
+}
+.mainBody{
+    display: flex;
+    height: 90vh;
+}
+.image{
+    width: 50%;
+}
+.image img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.BodyContent{
+    display: flex;
+    width: 40%;
+    padding:40px;
+    align-items: center;
+    justify-content: center;
+}
+.BodyContent h1{
+    margin: 0;
+    color: black;
+}
